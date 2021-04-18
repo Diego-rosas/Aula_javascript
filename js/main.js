@@ -1,19 +1,56 @@
+//---------- Aula 03 --------------------------
+
+//---------- Date ----------------------
+
+var d = new Date();
+console.log(d);
+//console.log(d.getMonth()+1);
+//console.log(d.getDate());
+//console.log(d.getHours());
+//console.log(d.getMinutes());
+
+//---------- Laços de Repetição ----------------------
+/*
+var count;
+for(count = 0; count <= 5; count++){
+    console.log(count);
+}
+*/
+/*
+var count = 0;
+while (count <= 5){
+    console.log(count);
+ // alert(count);
+ //count = count + 1; ou
+    count++;
+}
+*/
+
+//---------- Condicionais ----------------------
+/*
+var idade = prompt("Qual a sua idade?");
+//var idade = 18
+if(idade >= 18){
+    alert("Maior de idade");
+} else {
+    alert("Menor de idade");
+}16
+*/
+
 //---------- Aula 02 ----------------------
-
 //-------- Discionario --------------------
-
-var frutas = [{nome:"maça", cor:"veremelha"}, {nome:"uva", cor:"roxa"}]
+/*var frutas = [{nome:"maça", cor:"veremelha"}, {nome:"uva", cor:"roxa"}]
 console.log(frutas);
 console.log(frutas[1].nome);
 //console.log(fruta.cor);
 
-/*var fruta = {nome:"maça", cor:"veremelha"}
+var fruta = {nome:"maça", cor:"veremelha"}
 console.log(fruta);
 console.log(fruta.nome);
 console.log(fruta.cor);
 */
 
-//----------Arrays---------------------
+//----------Arrays------------------------
 //var lista = ["maça", "pêra", "laranja"];
 //lista.push("uva"); // add uva a lista
 //lista.pop();
@@ -24,7 +61,6 @@ console.log(fruta.cor);
 //console.log(lista.toString());
 //console.log(lista.toString()[1]);
 //console.log(lista.join(" - "));
-
 
 
 //--------------Aula 01 --------------------
