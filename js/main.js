@@ -1,7 +1,38 @@
+//------------- Aula 05 -----------------------
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar!</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar!")
+}
+
+function redirecionar(){
+    window.open("https://diegorosas19.github.io/Recriando-a-pagina-inicial-do-instagram/");
+// window.location.href = "https://diegorosas19.github.io/Recriando-a-pagina-inicial-do-instagram/";
+}
+
+function trocar(elemento){
+   // document.getElementById("mouseMove").innerHTML = "<b>Obrigado por passar o mouse!</b>";
+    //alert("Trocar texto");
+    elemento.innerHTML = "<b>Obrigado por passar o mouse!</b>";
+}
+
+function voltar(elemento){
+   // document.getElementById("mouseMove").innerHTML = "<b>Passe o mouse aqui</b>";
+   elemento.innerHTML = "<b>Passe o mouse aqui</b>";
+}
+
+function load(){
+    alert("Página carregada!");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);    
+}
 
 
 //------------- Aula 04 -----------------------
+/*
 var validar = 0; //variavel global
 function validaIdade(idade){
    // var validar; //variavel local da função
@@ -16,7 +47,7 @@ function validaIdade(idade){
 var idade = prompt("Qual a sua idade?");
 validaIdade(idade)
 console.log(validar); //usar o return diretamente assim só funciona com uma variavel global
-
+*/
 /*
 var frase = "vai Japão"
 function setReplace(frase, nome, novo_nome){
