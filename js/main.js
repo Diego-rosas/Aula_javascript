@@ -1,14 +1,47 @@
+
+
+
+//------------- Aula 04 -----------------------
+var validar = 0; //variavel global
+function validaIdade(idade){
+   // var validar; //variavel local da função
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual a sua idade?");
+validaIdade(idade)
+console.log(validar); //usar o return diretamente assim só funciona com uma variavel global
+
+/*
+var frase = "vai Japão"
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+console.log(frase);
+console.log(setReplace(frase, "Japão", "Brasil"));
+*/
+/*
+function soma(n1,n2){
+    return n1 + n2;
+} 
+alert(soma(5,10));
+*/
+
 //---------- Aula 03 --------------------------
-
 //---------- Date ----------------------
-
+/*
 var d = new Date();
 console.log(d);
 //console.log(d.getMonth()+1);
 //console.log(d.getDate());
 //console.log(d.getHours());
 //console.log(d.getMinutes());
-
+*/
 //---------- Laços de Repetição ----------------------
 /*
 var count;
